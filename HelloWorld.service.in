@@ -1,9 +1,0 @@
-[Unit]
-Description=Hello World
-
-[Service]
-Type=simple
-ExecStart=@EXE_PATH@
-
-[Install]
-WantedBy=multi-user.target
